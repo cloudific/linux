@@ -38,4 +38,5 @@ rm -rf mydir
 
 
 ### References:
+1. Amazon: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 1. http://searchenterpriselinux.techtarget.com/tutorial/77-useful-Linux-commands-and-utilities
