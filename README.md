@@ -1,6 +1,12 @@
 # linux-commands
 all linux-commands
 
+### File system
+
+![img](https://i.stack.imgur.com/CNf2r.png)
+
+
+
 ### 1. Transfer files/folder to remote srever
 
 Type this while you are at the directory of your local computer
