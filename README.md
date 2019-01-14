@@ -14,6 +14,7 @@ Type this while you are at the directory of your local computer
 ```
 scp -r localfile user@remote_server:/remote_home/remote_directory
 ex: scp -i  vasukeypair.pem newphoto/ma.jpg  ubuntu@ec2-X.X.X.X.compute-1.amazonaws.com:~/dog-project/ 
+ex: scp -i key.pem -r JACC ubuntu@X.X.X.X:/home/ubuntu/
 ```
 
 
