@@ -1,9 +1,9 @@
 
 
-## Some Frequently Used Commands:
+### Some Frequently Used Commands:
 
 
-### 1. Transfer files/folder from local PC to remote srever.
+#### 1. Transfer files/folder from local PC to remote srever.
 
 Type this while you are at the directory of your local computer
 
@@ -16,7 +16,7 @@ ex: scp -i key.pem -r JACC ubuntu@X.X.X.X:/home/ubuntu/
 ---------------------
 
 
-### 2. Transfer files/folder from remote server to local PC
+#### 2. Transfer files/folder from remote server to local PC
 
 Type this while you are at the directory of your local computer
 
@@ -29,7 +29,7 @@ scp -r user@remote_server:/remote_home/remote_folder .
  
  --------------------
 
-### 3. remove folder and files from remot/local PC.
+#### 3. remove folder and files from remot/local PC.
 
 This removes everything alongwith folder
 
@@ -46,7 +46,7 @@ sudo rm -r filename
 -------------
 
 
-### 4. Open .tar.7z file in mac
+#### 4. Open .tar.7z file in mac
 ```
 7z x  train-tif-v2.tar.7z
 ```
