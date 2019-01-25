@@ -56,7 +56,8 @@ the current line
 » -exec
 — rm ‘{}’ +
 ```
- Execute the command ```rm``` on the values/files within the results of the ```find``` command
+
+Execute the command ```rm``` on the values/files within the results of the ```find``` command
 
 
 • Many more values and examples in the man pages
