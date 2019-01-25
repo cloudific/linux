@@ -1,8 +1,8 @@
 
 
-## Some frequently needed commands:
+## Some Frequently Used Commands:
 
-------------------
+
 ### 1. Transfer files/folder from local PC to remote srever.
 
 Type this while you are at the directory of your local computer
