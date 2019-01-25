@@ -1,13 +1,9 @@
-# linux-commands
-all linux-commands
-
-### File system
-
-![img](https://i.stack.imgur.com/CNf2r.png)
 
 
+## Some frequently needed commands:
 
-### 1. Transfer files/folder to remote srever
+------------------
+### 1. Transfer files/folder from local PC to remote srever.
 
 Type this while you are at the directory of your local computer
 
@@ -17,31 +13,45 @@ ex: scp -i key.pem newphoto/ma.jpg  ubuntu@ec2-X.X.X.X:~/dog-project/
 ex: scp -i key.pem -r JACC ubuntu@X.X.X.X:/home/ubuntu/
 ```
 
+---------------------
 
 
-
-### 2. From remote server to local file
+### 2. Transfer files/folder from remote server to local PC
 
 Type this while you are at the directory of your local computer
+
 ```
 scp -r user@remote_server:/remote_home/remote_folder .
 
 ```
 
  Note . at the end is local folder
+ 
+ --------------------
 
-### 3. remove folder and files
+### 3. remove folder and files from remot/local PC.
 
 This removes everything alongwith folder
 
 ```
-rm -rf mydir
+sudo rm -rf mydir
 ```
+
+For removing file only
+
+```
+sudo rm -r filename
+```
+
+-------------
+
 
 ### 4. Open .tar.7z file in mac
 ```
 7z x  train-tif-v2.tar.7z
 ```
+--------------
+
 
 
 ### References:
