@@ -70,5 +70,6 @@ containing the text following the echo command (in this instance, â€œSome valueâ
 
 
 ### Linux Academy Honor Codes:
-1. These commands are lerned from Linux Academy's 'Linux Administrator course'. Learn more from [Linux Academy](https://linuxacademy.com/): Linux, Kubernets and all other cutting age cloud computing courses. Free Trial is available for one month.
+1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
+2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
 
