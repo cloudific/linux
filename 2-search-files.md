@@ -1,5 +1,6 @@
 
-### Search for Files
+## Search for Files
+
 ```
 • vi/vim
 ```
