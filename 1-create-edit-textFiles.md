@@ -68,7 +68,7 @@ containing the text following the echo command (in this instance, “Some value�
 
 — Redirection of almost any command will take the output and place it into a file
 
-
+----------------------------
 ### Linux Academy Honor Codes:
 1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
 2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.

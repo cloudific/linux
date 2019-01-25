@@ -47,3 +47,11 @@ rm -rf mydir
 ### References:
 1. Amazon: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 1. http://searchenterpriselinux.techtarget.com/tutorial/77-useful-Linux-commands-and-utilities
+
+
+----------------------------
+
+
+### Linux Academy Honor Codes:
+1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
+2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.

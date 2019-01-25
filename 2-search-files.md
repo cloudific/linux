@@ -44,7 +44,7 @@ the current line
 » -size
 ```
 
-—``` +#[MGT] ```– number and type of storage value (mega, giga, terabytes)
+``` +#[MGT] ```– number and type of storage value (mega, giga, terabytes)
 
 ```
 » -perm
@@ -62,7 +62,7 @@ Execute the command ```rm``` on the values/files within the results of the ```fi
 
 • Many more values and examples in the man pages
 
-
+----------------------------
 ### Linux Academy Honor Codes:
 1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
 2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
