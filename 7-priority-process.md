@@ -18,20 +18,12 @@
 
 ```SIGHUP 1 HANGUP
    SIGINT 2 INTERRUPT FROM KEYBOARD
-   SIGKILL 9 KILL SIGNAL```
-
+   SIGKILL 9 KILL SIGNAL
+```
 - This signal is not blockable and causes the program to terminate abruptly; only use if you can’t terminate with 15
 
-
-```SIGTERM 15 TERMINATION SIGNAL```
-
-- Asks the program to finish what it is doing, then exits; clean exist; the preferred way of killing processes
-
-
-```SIGSTOP 17,19,23 STOP THE PROCESS```
-
-- When a child process exits from a parent process it sends signal 1
-
+- ```SIGTERM 15 TERMINATION SIGNAL```:  Asks the program to finish what it is doing, then exits; clean exist; the preferred way of killing processes
+- ```SIGSTOP 17,19,23 STOP THE PROCESS``` : When a child process exits from a parent process it sends signal 1
 - Signals in the man page ```man-k signal```
 
 
