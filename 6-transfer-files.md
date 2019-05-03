@@ -4,11 +4,11 @@
 - ```scp``` : Based on the SSH secure protocol for transfer of files
   - Transfer files to/from a server:
   
-  ```scp user@RemoteIP:/remote/dir/myfile.txt /home/user```
+     ```scp user@RemoteIP:/remote/dir/myfile.txt /home/user```
   
   - Copy the remote file called ```myfile.txt``` to the local ```/home/user directory```:
   
-  ```scp myfile.txt user@RemoteIP:/remote/dir```
+     ```scp myfile.txt user@RemoteIP:/remote/dir```
   
   - Copies the local file called ```myfile.txt``` to the remote directory ```/remote/dir``` :
 
