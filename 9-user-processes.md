@@ -1,51 +1,19 @@
+### Managing User Processes
 
+- ```nice``` : Run a program with modified scheduling priority
+- ```renice```: Alter priority of running processes
+- ```top```: Display Linux processes
 
+- While running:
+  - ``` K ```: Kills processes
+  - ``` Q```: Quits processes
+  - ```r```:  Change process priority
+  - ``` s``` :  Change update rate
+  - ``` P``` : Sort by CPU usage
+  - ``` m ```: Sort by memory usage; can also show uptime, memory info, and load average
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Linux Academy Honor Codes:
-1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
-2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
-
+- From the command line:
+  - ``` -d ```: Specifies delay between updates
+  - ```-p``` : Lists up to 20 specific PIDs
+  - ```-n``` : Display certain number of updates then quit
+  - ``` -b``` : Batch mode
