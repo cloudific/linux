@@ -16,9 +16,10 @@
 
 ### Common kill signals:
 
-```SIGHUP 1 HANGUP
-   SIGINT 2 INTERRUPT FROM KEYBOARD
-   SIGKILL 9 KILL SIGNAL
+```
+SIGHUP 1 HANGUP
+SIGINT 2 INTERRUPT FROM KEYBOARD
+SIGKILL 9 KILL SIGNAL
 ```
 - This signal is not blockable and causes the program to terminate abruptly; only use if you can’t terminate with 15
 
