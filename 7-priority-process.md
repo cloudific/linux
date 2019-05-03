@@ -1,11 +1,10 @@
 ## Change the Priority of a Process/Identify Resource Utilization by Process
-  ```jobs``` : Displays minimal information about processes associated with the current session
-
-  ```ps``` : By default, ```ps``` only displays process that were run from its own terminal
-    ```–A \ -e``` : Displays all processes on a system
-    ```-u ``` : Displays processes given by a specified user
-    ```H``` : Groups processes and use indentation to show the hierarchy of relationships between processes
-    ``-w``` : Tells ps not to truncate to system 
+- ```jobs``` : Displays minimal information about processes associated with the current session
+- ```ps``` : By default, ```ps``` only displays process that were run from its own terminal
+ - ```–A \ -e``` : Displays all processes on a system
+ - ```-u ``` : Displays processes given by a specified user
+ - ```-H``` : Groups processes and use indentation to show the hierarchy of relationships between processes
+ - ```-w``` : Tells ps not to truncate to system 
 
 ### uptime
 
