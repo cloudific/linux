@@ -1,51 +1,30 @@
+### Manage the Startup Processes and Services
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Linux Academy Honor Codes:
-1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
-2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
-
+- Reboot the system:
+  - ```reboot```
+  - ```systemctl reboot```
+  - ```shutdown -r now```
+    - ```-r``` : reboot
+    - ```now``` : Reboot immmediately  
+— — +5 – Wait 5 minutes and then reboot
+— — +0 – Same as now
+— — 01:01
+— — -c
+– Reboot immediately
+– 1:01 AM shutdown
+– Cancel a scheduled shutdown
+init 6
+— — The init system in Red Hat 7 is depreciated. However, runlevels are still compatible for this
+current version for backwards compatibility
+•
+•
+Shutdown the system (no reboot/power off):
+» » systemctl halt
+» » halt
+» » shutdown -h now ( -h
+» » init 0
+means halt)
+Physically power off the system:
+» » systemctl poweroff
+» » poweroff
+» » shutdown -P
