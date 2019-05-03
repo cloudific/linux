@@ -1,38 +1,18 @@
 ## Change the Priority of a Process/Identify Resource Utilization by Process
+
 - ```jobs``` : Displays minimal information about processes associated with the current session
 - ```ps``` : By default, ```ps``` only displays process that were run from its own terminal
   - ```–A \ -e``` : Displays all processes on a system
   - ```-u ``` : Displays processes given by a specified user
   - ```-H``` : Groups processes and use indentation to show the hierarchy of relationships between processes
   - ```-w``` : Tells ps not to truncate to system 
-
-### uptime
-
-- Find uptime and display load average
-
-### bg
-
-- Restores a job to running status, but in the background
-
-### fg
-
-- Use ```CTRL+Z``` to pause a program and, then ```fg``` to send the program to foreground
-
-### kill
-
-- Can be used to stop executing processes, uses PID
-
-### nohup
-
-- Run a command immune to hangups, with output to console or non-tty
-
-
-### killall
-
-- Can be used to kill all processes of a certain name
-
-### free
-- Show free memory and swap
+- ```uptime```: Find uptime and display load average
+- ```bg``` : Restores a job to running status, but in the background
+- ```fg``` : Use ```CTRL+Z``` to pause a program and, then ```fg``` to send the program to foreground
+- ```kill``` : Can be used to stop executing processes, uses PID
+- ```nohup```: Run a command immune to hangups, with output to console or non-tty
+- ```killall```: Can be used to kill all processes of a certain name
+- ```free``` : Show free memory and swap
 
 ### Common kill signals:
 
