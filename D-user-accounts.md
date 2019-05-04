@@ -21,7 +21,7 @@
   - ```-G```– Defines all the other groups that the member belongs to; separate each group by a comma
   - ```-g``` – Sets the default group for the user; this is the user’s group when the user first logs in
   -```f```– Defines the number of days after a password expires before an account is permanently disabled; a value of 0 immediately disables the account after password expiration, whereas -1 disables the entire feature
-    - ```-k``` – Defines which directory skeleton to use when creating a user; allows you to have different default settings for different users; if the option is not set, it uses the ```/etc/skel``` format by default
+  - ```-k``` – Defines which directory skeleton to use when creating a user; allows you to have different default settings for different users; if the option is not set, it uses the ```/etc/skel``` format by default
 - ```/etc/default/useradd``` – Location of default settings for the useradd command
 - ```/etc/shadow``` – Contains the encrypted passwords for the user accounts on the system; this and the ```/etc/passwd``` file can be directly modified; the useradd and usermod commands are an interface to automatically modify these files.
 
@@ -54,6 +54,19 @@ user’s mail; does not remove files owned by the user outside of their home dir
   - ```-l``` – Changes the login name of the user
   - ```-L``` – Locks the user’s account
   
-  
+ #### Create, Delete and Modify Local Groups
+
+- ```groupdel``` – Deleted group; if any user has this group as their primary group, then the group cannot be removed until it is removed as the primary group
+- ```groupmod```– Modify group name or group ID
+  -```-g``` – Specify a new group ID; returns error if group already exists
+  - ```-o``` – When used with -g , allows two groups to share the same group ID
+  -```-n``` – Specifies a new group name
+-```/etc/group```– This file contains a list of groups and all the members associated with the groups
+- Example of /etc/group :
+  - ```groupName:Password:GUID:userlist```
+- ```groupadd``` – Adds a group to the system
+  -```-g``` – Specifies a group idea; if not specified it will auto-select one for you
+  - ```-r``` – Instructs groupadd to pick a group ID; less than 500 used for system groups
+  -```-f```– Forces group creation even if another group already exists
   
   
