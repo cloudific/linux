@@ -1,51 +1,12 @@
+### Virtualization
 
+#### Configure a Hypervisor to Host Virtual Guests
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------
-
-
-### Linux Academy Honor Codes:
-1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
-2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
-
+- Install and configure the necessary packages:
+    - ```yum install -y qemu-kvm qemu-img```
+  - Install and configure the virtual manager GUI:
+    - ```yum install -y virt-manager```
+    
+    
+    
+    
