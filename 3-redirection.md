@@ -1,33 +1,6 @@
+### Use Input/Output Redirection, Compare Text Files, Compare Binary Files
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------
-
-
-### Linux Academy Honor Codes:
-1. These commands are lerned from [Linux Academy's](https://linuxacademy.com/) **'Linux Administrator course'**. 
-2. Learn more from [Linux Academy](https://linuxacademy.com/): **Linux, Kubernets** and all other cutting age **cloud computing** courses. **Free Trial** is available for one month.
+- Redirection is used to direct the output of a command or task into a file, or direct the contents of a file to a command
+  - ``` >``` – Redirect output to a file, overwriting the contents if any exist
+  - ```>>``` – Redirect output to a file, appending to the contents if any exist
+  - ```|``` – “Pipe” the output to another command and/or file
