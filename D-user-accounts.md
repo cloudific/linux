@@ -62,7 +62,7 @@ user’s mail; does not remove files owned by the user outside of their home dir
   - ```-o``` – When used with -g , allows two groups to share the same group ID
   -```-n``` – Specifies a new group name
   
--```/etc/group```– This file contains a list of groups and all the members associated with the groups
+- ```/etc/group``` – This file contains a list of groups and all the members associated with the groups
 - Example of /etc/group :
   - ```groupName:Password:GUID:userlist```
 - ```groupadd``` – Adds a group to the system
