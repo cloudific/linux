@@ -44,14 +44,15 @@ from your system and then remove the user account
   - ```-r``` – Removes the user’s home directory, files located in the user’s home directory and the
 user’s mail; does not remove files owned by the user outside of their home directory — use the
 ```find``` command to find files based off owner.
+
 - ```usermod```– Modifies a user account
-  -```-d``` – Sets the user’s home directory to a new directory
-  -```-e ```– Sets date for when the user account will expire; use YYYY-MM-DD
-  -```-f```– Number of days after a password expires until account is permanently disabled
-  -```-g``` – Group ID/name of the user’s new default login group
-  -```-G``` – List of extra groups the user is a member of
-  -```-l``` – Changes the login name of the user
-  -```-L``` – Locks the user’s account
+  - ```-d``` – Sets the user’s home directory to a new directory
+  - ```-e ```– Sets date for when the user account will expire; use YYYY-MM-DD
+  - ```-f```– Number of days after a password expires until account is permanently disabled
+  - ```-g``` – Group ID/name of the user’s new default login group
+  - ```-G``` – List of extra groups the user is a member of
+  - ```-l``` – Changes the login name of the user
+  - ```-L``` – Locks the user’s account
   
   
   
